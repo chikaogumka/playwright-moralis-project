@@ -1,0 +1,21 @@
+{
+  "name": "moralis-playwright-project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test --headed"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.44.1",
+    "@types/node": "^20.14.2"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "moralis": "^2.26.5",
+    "node-fetch": "^3.3.2"
+  }
+}
